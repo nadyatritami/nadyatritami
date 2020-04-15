@@ -1,0 +1,95 @@
+@font-face{
+	font-family: FL;
+	src: url(../font/FL.ttf);
+}
+
+@font-face{
+	font-family: FM;
+	src: url(../font/FM.ttf);
+}
+
+body {
+	font-family: FM;
+}
+
+ul li a {
+	font-size: 1.5vw;
+}
+
+.Judul {
+	font-size: 2.7vw;
+}
+
+.subJudul {
+	font-size: 2vw;
+}
+
+.subJudul1 {
+	font-size: 2vw;
+}
+
+.judulKecil {
+	font-family: FM;
+	font-size: 1.5vw;
+	margin-bottom: 0;	
+}
+
+.deskripsi {
+	font-family: FL;
+	font-size: 1.5vw;
+	margin-top: 0;
+}
+
+.footer a {
+	font-size: 1.5vw;
+}
+
+.footer p{
+	font-family: FL;
+	font-size: 1.2vw;
+	line-height: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+	ul li a {
+		font-size: 2vw;
+	}
+
+	.Judul {
+		font-size: 3.5vw;
+	}
+
+	.Judul1 {
+		font-size: 3.5vw;
+	} 
+
+	.subJudul {
+		font-size: 3vw;
+	}
+
+	.subJudul1 {
+		font-size: 3vw;
+	}
+
+	.judulKecil {
+		font-family: FM;
+		font-size: 2.5vw;
+		margin-bottom: 0;	
+	}
+
+	.deskripsi {
+		font-family: FL;
+		font-size: 2.5vw;
+		margin-top: 0;
+	}
+
+	.footer a {
+		font-size: 2.5vw;
+	}
+
+	.footer p{
+		font-family: FL;
+		font-size: 2.2vw;
+		line-height: 80%;
+	}
+}
